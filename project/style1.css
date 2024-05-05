@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.home{
+    height: 100%;
+    width: 100%;
+    background: antiquewhite;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.btn .btn-outline-dark{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.a{
+    text-decoration: none;
+    color: black;
+}
+.a1{
+    text-decoration: none;
+}
+.h1{
+    margin-left: 20px;
+    margin-top: 80px;
+    margin-bottom: -40px;
+}
+.b{
+    margin-bottom: -30px;
+}
+.dropdown-menu{
+    border-radius: 10px;
+}
+.dropdown-item{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.card-body .h3{
+    color: forestgreen;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+.p1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+}
+.card:hover{
+    border-radius: 12px;
+    transform: scale(1.05);
+    box-shadow: rgba(0,0,0,0.2) 5px 10px 20px;
+}
+.bi-person{
+    cursor: pointer;
+}
+@media (max-width:991px){
+    .home{
+        background-position: 35%;
+        padding-bottom: 350px;
+    }
+    .nav-link{
+        background: limegreen;
+        margin-top: 20px;
+        border-radius: 10px;
+        text-align: center;
+    }
+    #mynavbar{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        /* background-color: lightcyan; */
+        border-radius: 5px;
+        width: 100%;
+    }
+    #navbar{
+        background: lightcyan;
+        width: 100%;
+    }
+}
+
+#navbar{
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    background: transparent;
+    padding-top: 20px;
+    background: lightblue;
+}
+#logo{
+    color: black;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.nav-link{
+    color: darkblue;
+    font-size: large;
+    font-weight: bolder;
+    margin-left: 15px;
+}
+.nav-link:hover{
+    background-color: lavenderblush;
+    border-radius: 6px;
+    color: black;
+    font-weight: bold;
+}
